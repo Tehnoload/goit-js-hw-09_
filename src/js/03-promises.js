@@ -37,5 +37,3 @@ form.addEventListener('submit', function (event) {
       });
   }
 });
-
-// 1
