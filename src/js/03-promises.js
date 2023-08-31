@@ -26,7 +26,7 @@ form.addEventListener('submit', function (event) {
     const delay = delayInput + i * stepInput;
     createPromise(i + 1, delay)
       .then(({ position, delay }) => {
-        Notiflix.Notify.failure(
+        Notiflix.Notify.success(
           `✅ Fulfilled promise ${position} in ${delay}ms`
         );
       })
